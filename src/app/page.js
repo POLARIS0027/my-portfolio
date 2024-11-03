@@ -29,7 +29,7 @@ export default function Home() {
         {/* 오른쪽 소개 글과 Skills, Career */}
         <div className="flex-1">
           <div id="about" className="mb-10">
-            <h3 className="text-3xl font-semibold mb-4">About Me</h3>
+            <h3 className="text-3xl font-semibold mb-4">Thank you for visiting my page. I&apos;m Jinwoo Shin</h3>
             <p className="mb-4">
               I&apos;am studying <span className="font-bold">javaScript, react, next.js, AWS,</span>to be a Web Developer. currently working as Software Engineer in  <span className="font-bold">Hiroshima.Japan</span>
             </p>
@@ -47,14 +47,17 @@ export default function Home() {
               <li>Created web applications like a bulletin board, Todo list, and gallery using Python and Django, and deployed them with AWS S3, EC2, and Lightsail.</li>
               <li>Developed a Chrome extension for work assistance using JavaScript.</li>
               <li>Common knowledge of HTML, CSS, JavaScript and Java.</li>
+              <li>Common knowledge of Android Application Development.</li>
             </ul>
 
-            <h3 className="text-2xl font-semibold mt-4 mb-2">As a QA Tester</h3>
+            <h3 className="text-2xl font-semibold mt-4 mb-2">As a Software QA Tester</h3>
             <ul className="list-disc pl-5">
-              <li>Planned and executed functional, composite, reinforcement, and pre-release tests for payment terminals.</li>
-              <li>Planned, created, and executed reinforcement tests for payment applications.</li>
+              <li>Analyze bugs and errors found during tests.</li>
+              <li>Perform manual testing on software products.</li>
+              <li>Perform automatic testing using Power Automate.</li>
+              <li>Create and maintain detailed test plans and test cases for software products.</li>
+              <li>Review software requirements, specifications, and technical design documents, providing feedback to increase quality of product and overall user experience.</li>
               <li>Analyzed product quality based on test results.</li>
-              <li>Performed manual testing on software products.</li>
               <li>Conducted network testing on LAN/WAN equipment devices, including Android phones and payment devices.</li>
             </ul>
 
@@ -63,13 +66,14 @@ export default function Home() {
               <li>Knowledgeable in OSI network model, TCP/IP, and Layer 2/3 switching and routing.</li>
               <li>Experienced in capturing and analyzing network packets using Wireshark.</li>
               <li>Implemented and configured wireless technologies.</li>
-              <li>Worked with CentOS.</li>
+              <li>Experience with Cent OS.</li>
             </ul>
 
             <h3 className="text-2xl font-semibold mt-4 mb-2">Other Skills</h3>
             <ul className="list-disc pl-5">
               <li>Developed a tool to aggregate test results using VBA for compiling and organizing test data.</li>
               <li>Managed project progress and schedules with business partners to ensure smooth project flow.</li>
+              <li>Trained new employees as an OJT trainer.</li>
             </ul>
 
             <h3 className="text-2xl font-semibold mt-4 mb-2">Language Skills</h3>
