@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <div className="p-8 max-w-4xl mx-auto">
@@ -13,10 +15,12 @@ export default function Home() {
       <div className="flex flex-col md:flex-row items-start gap-6">
         {/* 왼쪽 프로필 사진과 이름 */}
         <div className="flex flex-col items-center md:items-start w-full md:w-1/3">
-          <img
+          <Image
             src="/photo.jpg"
             alt="프로필 사진"
-            className="w-40 h-40 rounded-full mb-4"
+            width={160} // w-40은 40 * 4 = 160px
+            height={160} // h-40은 40 * 4 = 160px
+            className="rounded-full mb-4"
           />
           <h2 className="text-2xl font-semibold">Shin Jinwoo</h2>
           <p className="text-gray-500">Working on Web Development<br />Currently in Hiroshima.Japan</p>
