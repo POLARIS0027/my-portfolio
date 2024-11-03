@@ -31,7 +31,7 @@ export default function Home() {
           <div id="about" className="mb-10">
             <h3 className="text-3xl font-semibold mb-4">About Me</h3>
             <p className="mb-4">
-              I'm studying <span className="font-bold">javaScript, react, next.js, AWS,</span>to be a Web Developer. currently working as Software Engineer in  <span className="font-bold">Hiroshima.Japan</span>.
+              I\'m studying <span className="font-bold">javaScript, react, next.js, AWS,</span>to be a Web Developer. currently working as Software Engineer in  <span className="font-bold">Hiroshima.Japan</span>.
             </p>
             <p>
               <a href="https://github.com/POLARIS0027" className="text-blue-500 underline">Github</a>
