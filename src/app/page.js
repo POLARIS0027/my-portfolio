@@ -38,40 +38,50 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Skills 섹션 */}
+          {/* Skills Section */}
           <div id="skills" className="mb-10">
             <h2 className="text-3xl font-bold mb-4">Skills</h2>
             <h3 className="text-2xl font-semibold mb-2">As a Developer</h3>
             <ul className="list-disc pl-5">
-              <li>Chrome Extension Development: Developed a Chrome extension for work assistance using JavaScript.</li>
-              <li>Python and Django Web Applications: Developed web applications such as a bulletin board, Todo list, and gallery, and deployed them using AWS S3, EC2, and Lightsail.</li>
-              <li>Commercial Application Feature Implementation: Developed features for screen control based on call status and log transmission using Android (Java).</li>
-              <li>Web Technologies: Familiar with HTML, CSS, and JavaScript.</li>
+              <li>Developed a feature to restrict screen operations based on call status and a log transmission function for a commercial Android application.</li>
+              <li>Created web applications like a bulletin board, Todo list, and gallery using Python and Django, and deployed them with AWS S3, EC2, and Lightsail.</li>
+              <li>Developed a Chrome extension for work assistance using JavaScript.</li>
+              <li>Common knowledge of HTML, CSS, JavaScript and Java.</li>
             </ul>
 
             <h3 className="text-2xl font-semibold mt-4 mb-2">As a QA Tester</h3>
             <ul className="list-disc pl-5">
-              <li>Payment Terminal Testing: Planned and executed functional, composite, reinforcement, and pre-release tests for payment terminals.</li>
-              <li>Payment Application Reinforcement Testing: Planned, created, and executed reinforcement tests for payment applications.</li>
-              <li>Test Result Analysis: Analyzed product quality based on test results.</li>
-              <li>Manual Testing: Performed manual testing on software products.</li>
-              <li>Network Testing: Tested LAN/WAN equipment devices, including Android phones, routers, and payment devices.</li>
+              <li>Planned and executed functional, composite, reinforcement, and pre-release tests for payment terminals.</li>
+              <li>Planned, created, and executed reinforcement tests for payment applications.</li>
+              <li>Analyzed product quality based on test results.</li>
+              <li>Performed manual testing on software products.</li>
+              <li>Conducted network testing on LAN/WAN equipment devices, including Android phones and payment devices.</li>
             </ul>
 
             <h3 className="text-2xl font-semibold mt-4 mb-2">Network and System Knowledge</h3>
             <ul className="list-disc pl-5">
-              <li>OSI Model and Networking Protocols: Knowledgeable in OSI network model, TCP/IP, and Layer 2/3 switching and routing.</li>
-              <li>Network Packet Analysis: Experienced in capturing and analyzing network packets using Wireshark.</li>
-              <li>Wireless Technologies: Experienced in implementing and configuring wireless technologies.</li>
-              <li>CentOS: Experience working with CentOS.</li>
+              <li>Knowledgeable in OSI network model, TCP/IP, and Layer 2/3 switching and routing.</li>
+              <li>Experienced in capturing and analyzing network packets using Wireshark.</li>
+              <li>Implemented and configured wireless technologies.</li>
+              <li>Worked with CentOS.</li>
             </ul>
 
-            <h3 className="text-2xl font-semibold mt-4 mb-2">Others</h3>
+            <h3 className="text-2xl font-semibold mt-4 mb-2">Other Skills</h3>
             <ul className="list-disc pl-5">
-              <li>VBA Test Result Aggregation Tool: Developed a tool to aggregate test results using VBA for compiling and organizing test data.</li>
-              <li>Project Schedule Management: Managed progress and schedules with business partners to ensure smooth project flow.</li>
-              <li>Language Skill: Korean(Native), Japanese (Fluent, N1 full score), English(Business, 935)</li>
-              <li>Visa status: Japan - Working visa 5 years</li>
+              <li>Developed a tool to aggregate test results using VBA for compiling and organizing test data.</li>
+              <li>Managed project progress and schedules with business partners to ensure smooth project flow.</li>
+            </ul>
+
+            <h3 className="text-2xl font-semibold mt-4 mb-2">Language Skills</h3>
+            <ul className="list-disc pl-5">
+              <li>Language skills: Korean (Native)</li>
+              <li>Japanese (Fluent, N1 full score)</li>
+              <li>English (Business, TOEIC 935)</li>
+            </ul>
+
+            <h3 className="text-2xl font-semibold mt-4 mb-2">VISA Status</h3>
+            <ul className="list-disc pl-5">
+              <li>Visa status: Japan - Working visa for 5 years.</li>
             </ul>
           </div>
 
