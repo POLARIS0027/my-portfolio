@@ -11,22 +11,22 @@ export default function Home() {
     <div className="p-8 max-w-4xl mx-auto">
       <header className="text-center mb-10">
         <div className="flex justify-end">
-          <div className="inline-flex border rounded">
+          <div className="inline-flex border rounded mb-4">
             <button
               onClick={() => setLanguage('en')}
-              className={`px-4 py-2 ${language === 'en' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'}`}
+              className={`px-2 py-1 ${language === 'en' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'}`}
             >
               English
             </button>
             <button
               onClick={() => setLanguage('jp')}
-              className={`px-4 py-2 ${language === 'jp' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'}`}
+              className={`px-2 py-1 ${language === 'jp' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'}`}
             >
               日本語
             </button>
             <button
               onClick={() => setLanguage('ko')}
-              className={`px-4 py-2 ${language === 'ko' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'}`}
+              className={`px-2 py-1 ${language === 'ko' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'}`}
             >
               한국어
             </button>
