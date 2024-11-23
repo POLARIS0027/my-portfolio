@@ -3,8 +3,8 @@ const content = {
         introTitle: "Thank you for visiting my page.",
         introContent: (
             <div>
-                저는 Flutter, 웹 개발에 흥미가 있는 소프트웨어 엔지니어입니다. <br />
-                현재 일본 히로시마에서 일하고 있습니다.
+                I'm Software Engineer who interested in Flutter, Web Development. <br />
+                Currently working in Hiroshima, Japan.
             </div>
         ),
         skillsTitle: "Skills",
