@@ -3,7 +3,7 @@ const content = {
         introTitle: "Thank you for visiting my page.",
         introContent: (
             <div>
-                I&aposm Software Engineer who interested in Flutter, Web Development. <br />
+                I'm a Software Engineer interested in Flutter, Web Development. <br />
                 Currently working in Hiroshima, Japan.
             </div>
         ),
