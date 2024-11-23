@@ -1,9 +1,37 @@
+"use client";
+
+import { useState } from 'react';
 import Image from 'next/image';
+import content from './content'; // content.js 파일에서 content를 import
 
 export default function Home() {
+  const [language, setLanguage] = useState('en');
+
   return (
     <div className="p-8 max-w-4xl mx-auto">
       <header className="text-center mb-10">
+        <div className="flex justify-end">
+          <div className="inline-flex border rounded">
+            <button
+              onClick={() => setLanguage('en')}
+              className={`px-4 py-2 ${language === 'en' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'}`}
+            >
+              English
+            </button>
+            <button
+              onClick={() => setLanguage('jp')}
+              className={`px-4 py-2 ${language === 'jp' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'}`}
+            >
+              日本語
+            </button>
+            <button
+              onClick={() => setLanguage('ko')}
+              className={`px-4 py-2 ${language === 'ko' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'}`}
+            >
+              한국어
+            </button>
+          </div>
+        </div>
         <h1 className="text-4xl font-bold">About Me</h1>
         <nav className="mt-4">
           <a href="#about" className="text-blue-500 mx-2">About Me</a>
@@ -29,10 +57,8 @@ export default function Home() {
         {/* 오른쪽 소개 글과 Skills, Career */}
         <div className="flex-1">
           <div id="about" className="mb-10">
-            <h3 className="text-3xl font-semibold mb-4">Thank you for visiting my page. I&apos;m Jinwoo Shin</h3>
-            <p className="mb-4">
-              I&apos;am studying <span className="font-bold">javaScript, react, next.js, AWS,</span>to be a Web Developer. currently working as Software Engineer in  <span className="font-bold">Hiroshima.Japan</span>
-            </p>
+            <h3 className="text-3xl font-semibold mb-4">{content[language].introTitle}</h3>
+            <div className="mb-4">{content[language].introContent}</div>
             <p>
               <a href="https://github.com/POLARIS0027" className="text-blue-500 underline">Github</a>
             </p>
@@ -40,59 +66,14 @@ export default function Home() {
 
           {/* Skills Section */}
           <div id="skills" className="mb-10">
-            <h2 className="text-3xl font-bold mb-4">Skills</h2>
-            <h3 className="text-2xl font-semibold mb-2">As a Developer</h3>
-            <ul className="list-disc pl-5">
-              <li>Developed a feature to restrict screen operations based on call status and a log transmission function for a commercial Android application.</li>
-              <li>Created web applications like a bulletin board, Todo list, and gallery using Python and Django, and deployed them with AWS S3, EC2, and Lightsail.</li>
-              <li>Developed a Chrome extension for work assistance using JavaScript.</li>
-              <li>Common knowledge of HTML, CSS, JavaScript and Java.</li>
-              <li>Common knowledge of Android Application Development.</li>
-            </ul>
-
-            <h3 className="text-2xl font-semibold mt-4 mb-2">As a Software QA Tester</h3>
-            <ul className="list-disc pl-5">
-              <li>Analyze bugs and errors found during tests.</li>
-              <li>Perform manual testing on software products.</li>
-              <li>Perform automatic testing using Power Automate.</li>
-              <li>Create and maintain detailed test plans and test cases for software products.</li>
-              <li>Review software requirements, specifications, and technical design documents, providing feedback to increase quality of product and overall user experience.</li>
-              <li>Analyzed product quality based on test results.</li>
-              <li>Conducted network testing on LAN/WAN equipment devices, including Android phones and payment devices.</li>
-            </ul>
-
-            <h3 className="text-2xl font-semibold mt-4 mb-2">Network and System Knowledge</h3>
-            <ul className="list-disc pl-5">
-              <li>Knowledgeable in OSI network model, TCP/IP, and Layer 2/3 switching and routing.</li>
-              <li>Experienced in capturing and analyzing network packets using Wireshark.</li>
-              <li>Implemented and configured wireless technologies.</li>
-              <li>Experience with Cent OS.</li>
-            </ul>
-
-            <h3 className="text-2xl font-semibold mt-4 mb-2">Other Skills</h3>
-            <ul className="list-disc pl-5">
-              <li>Developed a tool to aggregate test results using VBA for compiling and organizing test data.</li>
-              <li>Managed project progress and schedules with business partners to ensure smooth project flow.</li>
-              <li>Trained new employees as an OJT trainer.</li>
-            </ul>
-
-            <h3 className="text-2xl font-semibold mt-4 mb-2">Language Skills</h3>
-            <ul className="list-disc pl-5">
-              <li>Language skills: Korean (Native)</li>
-              <li>Japanese (Fluent, N1 full score)</li>
-              <li>English (Business, TOEIC 935)</li>
-            </ul>
-
-            <h3 className="text-2xl font-semibold mt-4 mb-2">VISA Status</h3>
-            <ul className="list-disc pl-5">
-              <li>Visa status: Japan - Working visa for 5 years.</li>
-            </ul>
+            <h2 className="text-3xl font-bold mb-4">{content[language].skillsTitle}</h2>
+            <div>{content[language].skillsContent}</div>
           </div>
 
           {/* Career 섹션 */}
           <div id="career">
-            <h2 className="text-3xl font-bold mb-4">Career</h2>
-            <p>2023.04 ~ Current    NTT DATA SBC Mobile Division</p>
+            <h2 className="text-3xl font-bold mb-4">{content[language].careerTitle}</h2>
+            <p>{content[language].careerContent}</p>
           </div>
         </div>
       </div>
