@@ -3,7 +3,7 @@ const content = {
         introTitle: "Thank you for visiting my page.",
         introContent: (
             <div>
-                I'm a Software Engineer interested in Flutter, Web Development. <br />
+                I&#39;m a Software Engineer interested in Flutter, Web Development. <br />
                 Currently working in Hiroshima, Japan.
             </div>
         ),
@@ -152,7 +152,7 @@ const content = {
 
                 <h3 className="text-2xl font-semibold mt-4 mb-2">기타 기술</h3>
                 <ul className="list-disc pl-5">
-                    <li>테스트 데이터를 집계하기 위한 도구를 VBA로 개발하여 테스트 데이터를 컴파일하고 조직화.</li>
+                    <li>테스트 데이터를 집계하기 위한 도구를 VBA로 개발하여 테��트 데이터를 컴파일하고 조직화.</li>
                     <li>비즈니스 파트너와 프로젝트 진행 상황 및 일정을 관리하여 원활한 프로젝트 흐름 보장.</li>
                     <li>OJT 트레이너로서 신입 사원 교육.</li>
                 </ul>
