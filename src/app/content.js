@@ -39,7 +39,7 @@ const content = {
 
                 <h3 className="text-2xl font-semibold mt-4 mb-2">Other Skills</h3>
                 <ul className="list-disc pl-5">
-                    <li>Developed a tool to aggregate test results using VBA for compiling and organizing test data.</li>
+                    <li>Developed a tool to aggregate test results using VBA for gathering and organizing test data.</li>
                     <li>Managed project progress and schedules with business partners to ensure smooth project flow.</li>
                     <li>Trained new employees as an OJT trainer.</li>
                 </ul>
@@ -95,7 +95,7 @@ const content = {
 
                 <h3 className="text-2xl font-semibold mt-4 mb-2">その他のスキル</h3>
                 <ul className="list-disc pl-5">
-                    <li>VBAを使用してテストデータを集計するツールを開発し、テストデータをコンパイルおよび整理。</li>
+                    <li>VBAを使用してテストデータを集計するツールを開発し、テストデータを整理・分析。</li>
                     <li>ビジネスパートナーとプロジェクトの進行状況やスケジュールを管理し、円滑なプロジェクト進行を確保。</li>
                     <li>OJTトレーナーとして新入社員の教育を担当。</li>
                 </ul>
@@ -152,7 +152,7 @@ const content = {
 
                 <h3 className="text-2xl font-semibold mt-4 mb-2">기타 기술</h3>
                 <ul className="list-disc pl-5">
-                    <li>테스트 데이터를 집계하기 위한 도구를 VBA로 개발하여 테��트 데이터를 컴파일하고 조직화.</li>
+                    <li>테스트 데이터를 집계하기 위한 도구를 VBA로 개발하여 테스트 데이터를 정리,분석함.</li>
                     <li>비즈니스 파트너와 프로젝트 진행 상황 및 일정을 관리하여 원활한 프로젝트 흐름 보장.</li>
                     <li>OJT 트레이너로서 신입 사원 교육.</li>
                 </ul>
